@@ -1,0 +1,31 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Pokemon</h1>
+
+</div>
+
+<div class="row">
+    <div class="col-md-2">
+        <span>Pokemon Name :</span>
+    </div>
+    <div class="col-md-8">
+        <input type="text" id="keyInput" style="width: 100%;" />
+    </div>
+    <div class="col-md-2">
+        <button onclick="search()" id="searchButton">Search</button>
+    </div>
+</div>
+
+<div class="row" style="margin-top: 20px;">
+    <div class="col-md-2">
+        <span>Description :</span>
+    </div>
+    <div class="col-md-8">
+        <textarea rows="10" id="resultText" style="width: 100%;"></textarea>
+    </div>
+</div>
+
+
